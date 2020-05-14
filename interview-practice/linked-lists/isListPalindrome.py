@@ -69,7 +69,7 @@ def isListPalindrome(l):
     i = i.next
     while i != None:        
         if l.value != i.value:
-  		    return False      
+  		    return False
         i = i.next
         l = l.next
     return True
